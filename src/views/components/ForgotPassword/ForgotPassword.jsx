@@ -3,6 +3,8 @@ import { reduxForm } from "redux-form";
 import { connect } from "react-redux";
 import { Message } from "semantic-ui-react";
 
+import history from "../../../history";
+
 import StyledFormHeader from "@styled/forms/FormHeader";
 import ForgotPasswordForm from "./ForgotPasswordForm";
 
@@ -14,7 +16,7 @@ class ForgotPassword extends Component {
   };
 
   submit = email => {
-    const { history, getTokenForResetPassword } = this.props;
+    const { getTokenForResetPassword } = this.props;
     let user = sessionStorage.getItem("user");
 
     return getTokenForResetPassword(user, email)

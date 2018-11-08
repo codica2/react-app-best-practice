@@ -8,6 +8,8 @@ import { Tab } from "semantic-ui-react";
 
 import JoinForm from "./JoinForm";
 
+import history from "../../../history";
+
 import StyledFormHeader from "@styled/forms/FormHeader";
 import StyledTabs from "@styled/StyledTabs";
 import StyledAuthForm from "@styled/forms/AuthForm";
@@ -31,7 +33,7 @@ class JoinContainer extends Component {
 
   render() {
     const { activeUser } = this.state;
-    const { handleSubmit, join, history } = this.props;
+    const { handleSubmit, join } = this.props;
 
     const panes = [
       {

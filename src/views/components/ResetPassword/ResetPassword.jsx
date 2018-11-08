@@ -3,6 +3,8 @@ import { compose } from "redux";
 import { connect } from "react-redux";
 import { reduxForm } from "redux-form";
 
+import history from "../../../history";
+
 import StyledFormHeader from "@styled/forms/FormHeader";
 import ResetPasswordForm from "@views/components/common/forms/VerificationForm";
 
@@ -21,7 +23,7 @@ class ResetPassword extends Component {
   }
 
   submit = passwords => {
-    const { history, getPasswordsForResetPassword } = this.props;
+    const { getPasswordsForResetPassword } = this.props;
 
     return getPasswordsForResetPassword(passwords, this.user, this.token)
       .then(() => history.push("/sign_in"))

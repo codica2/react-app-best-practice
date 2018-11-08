@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
-import { Route } from "react-router-dom";
 
 import HeaderIntro from "@components/HeaderIntro";
 import ConfirmReset from "@components/ResetPassword/ConfirmReset";
@@ -8,7 +7,7 @@ import ConfirmReset from "@components/ResetPassword/ConfirmReset";
 import MainContainer from "@styled/MainContainer";
 import { IntroContainer } from "@styled/Containers";
 
-const ConfirmResetLayout = ({ match }) => {
+const ConfirmResetLayout = props => {
   document.title = "Reset Password";
 
   return (
@@ -16,7 +15,7 @@ const ConfirmResetLayout = ({ match }) => {
       <HeaderIntro />
       <MainContainer>
         <IntroContainer>
-          <Route path={`${match.url}`} component={ConfirmReset} />
+          <ConfirmReset />
         </IntroContainer>
       </MainContainer>
     </Fragment>

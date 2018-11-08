@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
-import { Route } from "react-router-dom";
 
 import HeaderIntro from "@components/HeaderIntro";
 import Confirmation from "@components/Confirmation";
@@ -8,12 +7,12 @@ import Confirmation from "@components/Confirmation";
 import MainContainer from "@styled/MainContainer";
 import { IntroContainer } from "@styled/Containers";
 
-const ConfirmationLayout = ({ match }) => (
+const ConfirmationLayout = props => (
   <Fragment>
     <HeaderIntro />
     <MainContainer>
       <IntroContainer>
-        <Route path={`${match.url}`} component={Confirmation} />
+        <Confirmation />
       </IntroContainer>
     </MainContainer>
   </Fragment>

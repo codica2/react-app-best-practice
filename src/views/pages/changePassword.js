@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
-import { Route } from "react-router-dom";
 
 import HeaderBasic from "@components/HeaderBasic";
 import ChangePassword from "@components/ChangePassword";
@@ -16,7 +15,7 @@ const ChangePasswordLayout = ({ match }) => {
       <HeaderBasic match={match} />
       <MainContainer>
         <IntroContainer>
-          <Route path={`${match.url}`} component={ChangePassword} />
+          <ChangePassword />
         </IntroContainer>
       </MainContainer>
     </Fragment>
