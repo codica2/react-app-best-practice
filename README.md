@@ -1,4 +1,4 @@
-<h1 align="center">React Code Samples</h1>
+<h1 align="center">React Redux Sample</h1>
 <p align="center">
   <a href="https://www.npmjs.com/" target="_blank"><img src="https://img.shields.io/badge/Packages-NPM-%23CB3837.svg?logo=npm&link=https://www.npmjs.com"></a>
   <a href="https://webpack.js.org/" target="_blank"><img src="https://img.shields.io/badge/Bundler-Webpack-%238DD6F9.svg?logo=Webpack"></a>
@@ -12,7 +12,7 @@
 
 React application bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) for using with `REST API` and [Redux](https://www.npmjs.com/package/redux) for state managing.
 
-Both components and redux-specific code (reducres, actions, action types) splitted by feature-first pattern [Re-Ducks](https://medium.freecodecamp.org/scaling-your-redux-app-with-ducks-6115955638be).
+Both components and redux-specific code (reducers, actions, action types) splitted by feature-first pattern [Re-Ducks](https://medium.freecodecamp.org/scaling-your-redux-app-with-ducks-6115955638be).
 
 ## File structure
 
@@ -168,7 +168,7 @@ export default Feature
 
 The MIT License (MIT)
 
-Copyright (c) 2017 Codica
+Copyright (c) 2018 Codica
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
