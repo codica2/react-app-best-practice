@@ -1,6 +1,6 @@
 {
   "name": "react-redux-sample",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "axios": "^0.16.2",
