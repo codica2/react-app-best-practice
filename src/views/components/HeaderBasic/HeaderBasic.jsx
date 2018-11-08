@@ -24,7 +24,7 @@ const HeaderBasic = ({
     <StyledHeaderBasic>
       <div className="nav-logo bordered">
         <a className="logo" href="/">
-          <img src="/images/dv-logo.png" alt="digital village" />
+          <img src="/images/logo.png" alt="" />
         </a>
       </div>
       <div className="nav-links">

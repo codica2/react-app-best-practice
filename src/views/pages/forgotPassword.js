@@ -9,7 +9,7 @@ import MainContainer from "@styled/MainContainer";
 import { IntroContainer } from "@styled/Containers";
 
 const ForgotPasswordLayout = ({ match }) => {
-  document.title = "Forgot Password | Digital Village";
+  document.title = "Forgot Password";
 
   return (
     <Fragment>

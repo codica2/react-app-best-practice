@@ -49,7 +49,7 @@ class JoinContainer extends Component {
     return (
       <Fragment>
         <StyledFormHeader>
-          <div className="form-title">Join the Digital Village</div>
+          <div className="form-title">Join</div>
           <div className="form-subtitle">
             Create an account and get started.
           </div>

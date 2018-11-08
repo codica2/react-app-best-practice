@@ -1,6 +1,6 @@
 {
-  "short_name": "DV",
-  "name": "Digital Village",
+  "short_name": "codica2/RRS",
+  "name": "React Redux Sample",
   "icons": [
     {
       "src": "favicon.ico",

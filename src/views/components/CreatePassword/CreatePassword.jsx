@@ -52,7 +52,7 @@ class Verification extends Component {
     return (
       <Fragment>
         <StyledFormHeader borderBottom>
-          <div className="form-title">Join the Digital Village</div>
+          <div className="form-title">Join</div>
           <div className="form-subtitle">
             Your account has been verified. Create a password and join us.
           </div>

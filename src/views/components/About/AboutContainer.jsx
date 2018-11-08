@@ -110,11 +110,7 @@ class AboutContainer extends Component {
     const activeUser = specialist ? specialistWithId : user;
 
     if (activeUser) {
-      document.title =
-        activeUser.first_name +
-        " " +
-        activeUser.last_name +
-        " | Digital Village";
+      document.title = activeUser.first_name + " " + activeUser.last_name;
     }
 
     let data = {};

@@ -12,7 +12,7 @@ const EnchancedRoute = ({
   extraProps,
   ...rest
 }) => {
-  document.title = `${title ? title + " | " : ""}Digital Village`;
+  document.title = `${title ? title + " | " : ""}Your Site`;
   return (
     <Route
       {...rest}

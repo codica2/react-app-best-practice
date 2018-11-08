@@ -58,7 +58,8 @@ class App extends Component {
 
   render() {
     //While loading one of two base layouts
-    if (this.state.loading) return <PageLoader />;
+    // Return PageLoader
+    if (this.state.loading) return null;
 
     return (
       <FlexDirection>

@@ -8,7 +8,7 @@ class Header extends Component {
       <StyledHeaderBasic className="sign-in">
         <div className="nav-logo">
           <a className="logo" href="/">
-            <img src="/images/dv-logo.png" alt="digital village" />
+            <img src="/images/logo.png" alt="" />
           </a>
         </div>
         <div className="nav-links sign-links">

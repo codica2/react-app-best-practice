@@ -6,7 +6,7 @@ import { ColoredLinks } from "@styled/Home";
 import StyledNotFound from "@styled/NotFound";
 
 const NotFound = () => {
-  document.title = "404 not found | Digital Village";
+  document.title = "404 not found";
   return (
     <StyledNotFound>
       <h1>
@@ -24,7 +24,7 @@ const NotFound = () => {
         </ColoredLinks>
         , or head over to{" "}
         <ColoredLinks to="/" color={colors.green}>
-          Digital-village.com
+          This-site.com
         </ColoredLinks>{" "}
         to choose a new direction.
       </p>
@@ -34,7 +34,7 @@ const NotFound = () => {
 };
 
 const ProjectNotFound = () => {
-  document.title = "Project not found | Digital Vllage";
+  document.title = "Project not found";
   return (
     <StyledNotFound>
       <h1>
@@ -52,7 +52,7 @@ const ProjectNotFound = () => {
         </ColoredLinks>
         , or head over to{" "}
         <ColoredLinks to="/" color={colors.green}>
-          Digital-village.com
+          This-site.com
         </ColoredLinks>{" "}
         to choose a new direction.
       </p>
@@ -62,7 +62,7 @@ const ProjectNotFound = () => {
 };
 
 const ModuleNotFound = () => {
-  document.title = "Module not found | Digital Vllage";
+  document.title = "Module not found";
   return (
     <StyledNotFound>
       <h1>
@@ -79,7 +79,7 @@ const ModuleNotFound = () => {
         </ColoredLinks>
         , or head over to{" "}
         <ColoredLinks to="/" color={colors.green}>
-          Digital-village.com
+          This-site.com
         </ColoredLinks>{" "}
         to choose a new direction.
       </p>

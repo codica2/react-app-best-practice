@@ -9,7 +9,7 @@ import MainContainer from "@styled/MainContainer";
 import { IntroContainer } from "@styled/Containers";
 
 const SignInLayout = ({ match }) => {
-  document.title = "Sign In | Digital Village";
+  document.title = "Sign In";
 
   return (
     <Fragment>

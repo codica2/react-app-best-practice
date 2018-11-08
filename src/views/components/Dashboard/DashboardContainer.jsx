@@ -97,7 +97,7 @@ class DashboardContainer extends Component {
     if (usertype === SPECIALIST && userRole !== S_REDGUY) {
       return (
         <div className="default-dashboard">
-          <h1>Welcome to the digital village</h1>
+          <h1>Welcome!</h1>
           <p>Well....What happens now?</p>
 
           <p>
@@ -116,12 +116,12 @@ class DashboardContainer extends Component {
             </NavLink>
           </p>
 
-          <p>See what Digital Village Events are coming up!</p>
+          <p>See what Events are coming up!</p>
 
           <p>
             <a
               className="link-purple"
-              href="https://digitalvillage.network/meetups/"
+              href="http://lmgtfy.com/?q=events"
               target="_blank"
               rel="noopener noreferrer"
             >

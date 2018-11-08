@@ -14,7 +14,7 @@ class Confirmation extends Component {
         <Grid.Row>
           <Grid.Column className="perspective">
             <StyledFormHeader borderBottom>
-              <div className="form-title">Join the Digital Village</div>
+              <div className="form-title">Join</div>
               <div className="form-subtitle">Confirm your email address.</div>
             </StyledFormHeader>
             <div className="confirm-msg">
@@ -23,10 +23,7 @@ class Confirmation extends Component {
                 <b>{localStorage.getItem("user_email")}</b>
               </p>
               {/* <div>{localStorage.getItem("user_email")}</div> */}
-              <p>
-                Let us know that it's you and start creating your Digital
-                Village profile.
-              </p>
+              <p>Let us know that it's you and start creating your profile.</p>
             </div>
           </Grid.Column>
         </Grid.Row>

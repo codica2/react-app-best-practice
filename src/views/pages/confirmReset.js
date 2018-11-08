@@ -9,7 +9,7 @@ import MainContainer from "@styled/MainContainer";
 import { IntroContainer } from "@styled/Containers";
 
 const ConfirmResetLayout = ({ match }) => {
-  document.title = "Reset Password | Digital Village";
+  document.title = "Reset Password";
 
   return (
     <Fragment>
