@@ -1,0 +1,6 @@
+{
+  "name": "change-password",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ChangePassword.jsx"
+}

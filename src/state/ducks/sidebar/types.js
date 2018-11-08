@@ -1,0 +1,1 @@
+export const SIDEBAR_TOOGLE = "SIDEBAR_TOOGLE";

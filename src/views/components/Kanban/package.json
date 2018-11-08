@@ -1,0 +1,6 @@
+{
+  "name": "Kanban",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./KanbanContainer.js"
+}

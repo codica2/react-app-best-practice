@@ -1,0 +1,6 @@
+{
+  "name": "dashboard-tasks",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./TasksContainer.jsx"
+}

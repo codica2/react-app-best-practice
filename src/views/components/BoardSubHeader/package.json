@@ -1,0 +1,6 @@
+{
+  "name": "board-subheader",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BoardSubHeader.jsx"
+}

@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "import/resolver": "webpack",
+    "react": {
+      "createClass": "createReactClass",
+      "pragma": "React",
+      "version": "16.2.0"
+    },
+    "propWrapperFunctions": ["forbidExtraProps"]
+  },
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "rules": {
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/no-extraneous-dependencies": 0
+  },
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "experimentalDecorators": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": ["eslint-plugin-react"]
+}

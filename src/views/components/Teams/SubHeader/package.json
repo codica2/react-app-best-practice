@@ -1,0 +1,6 @@
+{
+  "name": "TeamSubheader",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./TeamSubHeader.jsx"
+}

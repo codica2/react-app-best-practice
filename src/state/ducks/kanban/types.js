@@ -1,0 +1,2 @@
+export const TOGGLE_MY_TASKS = "TOGGLE_MY_TASKS";
+export const TOGGLE_KANBAN_VIEW = "TOGGLE_KANBAN_VIEW";

@@ -1,0 +1,6 @@
+{
+  "name": "async-input-field",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AsyncInputField.jsx"
+}

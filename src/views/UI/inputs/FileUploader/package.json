@@ -1,0 +1,6 @@
+{
+  "name": "file-uploader",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FileUploader.jsx"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "assign-team-dropdown",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AssignTeamDropdown.jsx"
+}

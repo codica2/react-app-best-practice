@@ -1,0 +1,238 @@
+html,
+body,
+#root,
+#root > div {
+  height: 100%;
+  background-color: #f4f9fa;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:focus,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.dimmable.dimmed #root {
+  filter: blur(1px);
+}
+
+.ui.page.modals.dimmer {
+  background: rgba(56, 60, 85, 0.9);
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000333;
+  margin-bottom: 13px;
+}
+
+textarea {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #232323;
+  padding: 7px 10px;
+  line-height: 22px;
+  border-radius: 6px;
+  border: 1px solid #dce0ee;
+}
+
+textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #6f7084;
+}
+
+textarea:focus {
+  border-color: #4861f2;
+}
+
+textarea.error {
+  border-color: #c65c5c;
+}
+
+/*________RESET SEMANTIC________*/
+
+.ui.input input[type="text"],
+.ui.input input[type="number"],
+.ui.input input[type="email"] {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #232323;
+  padding: 7px 10px;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+  border-radius: 6px;
+  border: 1px solid #dce0ee;
+}
+
+.ui.input input[type="text"]::placeholder {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #6f7084;
+}
+
+.ui.input input:focus {
+  border-color: #4861f2;
+}
+
+.ui.primary.button,
+.ui.primary.buttons .button {
+  background-color: #1991fa;
+  margin-right: 0;
+}
+
+.ui.segment {
+  border-radius: 0;
+}
+
+.ui.page.modals.dimmer.transition.visible.active {
+  overflow: auto;
+}
+
+.modal.hidden-icon .close.icon {
+  display: none;
+}
+
+/*_____________Global_____________*/
+
+.Select-control {
+  outline: none;
+}
+
+.Select-placeholder {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #6f7084;
+}
+
+.Select-clear-zone {
+  display: none;
+}
+
+.bm-burger-button {
+  display: none;
+}
+
+nav.bm-item-list {
+  padding: 60px 0;
+  text-align: right;
+}
+
+.dv-btn {
+  display: inline-block;
+  color: #dae1ee;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: color 0.5s;
+}
+
+.dv-btn:hover {
+  color: #002c93;
+}
+
+.bm-menu-wrap,
+.bm-item-list,
+.bm-menu {
+  height: auto !important; /*overwrite inline styles*/
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.925) !important; /*overwrite inline styles*/
+}
+
+.bm-cross-button {
+  width: 30px !important; /*overwrite inline styles*/
+  height: 30px !important; /*overwrite inline styles*/
+  background: #000;
+}
+
+.bm-cross-button:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  top: 14px;
+  left: 5px;
+  height: 2px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+.bm-cross-button:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  top: 14px;
+  left: 5px;
+  height: 2px;
+  background: #fff;
+  transform: rotate(-45deg);
+}
+
+@media (min-width: 1921px) {
+  .Select-control {
+    border: 2px solid #ccc;
+  }
+}
+
+.Select-placeholder {
+  color: #000;
+}
+
+.mt-50 {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.relative {
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .bm-cross-button {
+    right: 34px !important; /*overwrite inline styles*/
+    top: 13px !important; /*overwrite inline styles*/
+  }
+}
+
+@media (max-width: 768px) {
+  .bm-cross-button {
+    right: 20px !important; /*overwrite inline styles*/
+    top: 9px !important; /*overwrite inline styles*/
+  }
+
+  .bm-menu-wrap {
+    width: 50% !important; /*overwrite inline styles*/
+  }
+}
+
+@media (max-width: 520px) {
+  .bm-menu-wrap {
+    width: 80% !important; /*overwrite inline styles*/
+  }
+}

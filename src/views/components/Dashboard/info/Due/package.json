@@ -1,0 +1,6 @@
+{
+  "name": "dashboard-due",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DueContainer.jsx"
+}

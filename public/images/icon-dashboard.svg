@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="450.698px" height="389.123px" viewBox="0 0 450.698 389.123" enable-background="new 0 0 450.698 389.123"
+	 xml:space="preserve">
+<g id="LAYOUT">
+</g>
+<g id="Sign_Up">
+	<g id="LAYOUT_1_">
+	</g>
+</g>
+<g id="Sign_In">
+</g>
+<g id="Two_Password">
+</g>
+<g id="Forgot_Password">
+</g>
+<g id="Confirmation">
+	<g>
+		<path fill="#CCCCCC" d="M201,113v54h-63v-54H201 M215,99h-91v82h91V99L215,99z"/>
+		<path fill="#CCCCCC" d="M312,113v54h-63v-54H312 M326,99h-91v82h91V99L326,99z"/>
+		<path fill="#CCCCCC" d="M201,218v53h-63v-53H201 M215,204h-91v81h91V204L215,204z"/>
+		<path fill="#CCCCCC" d="M312,218v53h-63v-53H312 M326,204h-91v81h91V204L326,204z"/>
+	</g>
+</g>
+<g id="Grid" display="none">
+</g>
+</svg>

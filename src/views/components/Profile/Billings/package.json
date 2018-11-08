@@ -1,0 +1,6 @@
+{
+  "name": "Billings",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BillingsContainer.js"
+}

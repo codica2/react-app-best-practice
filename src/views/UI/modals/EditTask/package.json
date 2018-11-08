@@ -1,0 +1,6 @@
+{
+  "name": "edit-task-modal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./EditTaskModal.jsx"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "async-textarea",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AsyncTextArea.jsx"
+}

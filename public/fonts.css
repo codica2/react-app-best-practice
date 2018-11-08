@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto" !important;
+}
+
+@-webkit-keyframes rotating {
+  0% {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes rotating {
+  0% {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+
+  /*50% {*/
+  /*-webkit-transform: rotateY(180deg);*/
+  /*-moz-transform: rotateY(180deg);*/
+  /*-ms-transform: rotateY(180deg);*/
+  /*-o-transform: rotateY(180deg);*/
+  /*transform: rotateY(180deg);*/
+  /*}*/
+  100% {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+#first-load {
+  /*perspective: 75px;*/
+  position: relative;
+  -webkit-backface-visibility: visible;
+  backface-visibility: hidden;
+  background-color: #337bff !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#first-load > div {
+  position: relative;
+  top: 80px;
+  font-size: 30px;
+  color: #fff;
+}
+
+#first-image-load {
+  top: -90px;
+  left: 45px;
+  position: absolute;
+  animation: rotating 2s ease-in-out infinite;
+  /*transform-style: preserve-3d;*/
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(./fonts/ProximaNova-Regular/ProximaNova-Regular.ttf);
+  /*src: url('./fonts/ProximaNova-Regular/ProximaNova-Regular.eot?iefix') format('eot'),*/
+  /*url('./fonts/ProximaNova-Regular/ProximaNova-Regular.woff') format('woff')*/
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/roboto/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/roboto/Roboto-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/roboto/Roboto-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/roboto/Roboto-Bold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/roboto/Roboto-Black.ttf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Brix";
+  src: url(./fonts/Brix/Brix-Sans-Light.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Brix";
+  src: url(./fonts/Brix/Brix-Sans-Regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Brix";
+  src: url(./fonts/Brix/Brix-Sans-Medium.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Brix";
+  src: url(./fonts/Brix/Brix-Sans-Bold.otf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Brix";
+  src: url(./fonts/Brix/Brix-Sans-Black.otf);
+  font-weight: 900;
+}
