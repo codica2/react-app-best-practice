@@ -6,7 +6,7 @@
   <a href="https://redux.js.org/" target="_blank"><img src="https://img.shields.io/badge/State-Redux-744cbc.svg?logo=Redux&logoColor=ED2B88"></a>
   <a href="https://react.semantic-ui.com/" target="_blank"><img src="https://img.shields.io/badge/UI%20Framework-Semantic%20UI-%2300b5ad.svg"></a>
   <a href="https://www.styled-components.com/" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%92%85%20Styles-Styled%20Components-%23de9b62.svg"></a>
-  <a href="https://github.com/prettier/prettier" target="_blank"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square"></a>
+  <a href="https://github.com/prettier/prettier" target="_blank"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg"></a>
 </p>
 
 ## Description
