@@ -142,7 +142,7 @@ We splitting components to two parts - _Container_ and _Component_.
 
 import Feature from './Feature.jsx'
 
-const withConnect = conenct(...)
+const withConnect = connect(...)
 
 const withForm = reduxForm({
   ...
