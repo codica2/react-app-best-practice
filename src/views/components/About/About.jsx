@@ -62,9 +62,7 @@ const About = ({
 
                 <div className="profile-name">{data.name}</div>
                 <div className="profile-label">{data.position}</div>
-                <div className="profile-label">{`${data.experience_level} ${
-                  data.industry_title
-                }`}</div>
+                <div className="profile-label">{`${data.experience_level} ${data.industry_title}`}</div>
                 <div className="profile-label">
                   <i className="fas fa-map-marker-alt" /> {data.address}
                 </div>

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Modal } from "semantic-ui-react";
 
 import PointCard from "../PointCard";
-import { SaveBtn, CancelBtn, DvBlueButton } from "@styled/DVButton";
+import { DvBlueButton } from "@styled/DVButton";
 
 class DeletingEducationCard extends Component {
   state = {

@@ -6,7 +6,6 @@ import { specialistOperations } from "@ducks/specialists";
 import { getExperienceLevels } from "@ducks/experienceLevels/actions";
 import { getIndustries } from "@ducks/industries/actions";
 
-import { SPECIALIST } from "@utilities";
 import About from "./About";
 
 class AboutContainer extends Component {

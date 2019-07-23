@@ -40,9 +40,7 @@ const EditProjectForm = props => {
             <div className="projectAside">
               <div className="asideInfo">
                 <div className="label">Customer</div>
-                <div className="text">{`${customer.first_name} ${
-                  customer.last_name
-                }`}</div>
+                <div className="text">{`${customer.first_name} ${customer.last_name}`}</div>
               </div>
               <div className="asideInfo">
                 <div className="label">Project type</div>

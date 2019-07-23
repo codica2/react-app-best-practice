@@ -83,9 +83,7 @@ class AssignTeamDropdown extends Component {
 
     axios({
       method: "GET",
-      url: `${PORT}/api/v1/specialists/search?query=${
-        this.state.specInput
-      }&specialist_id=${specialistId}`
+      url: `${PORT}/api/v1/specialists/search?query=${this.state.specInput}&specialist_id=${specialistId}`
     })
       .then(resp => {
         this.setState({ specialists: resp.data, searching: false });
@@ -111,9 +109,7 @@ class AssignTeamDropdown extends Component {
     } = this.props;
     axios({
       method: "POST",
-      url: `${PORT}/api/v1/projects/${id}/teams/${
-        team.id
-      }/specialist_invitation/${specialistId}`,
+      url: `${PORT}/api/v1/projects/${id}/teams/${team.id}/specialist_invitation/${specialistId}`,
 
       headers: {
         Authorization: `Bearer ${localStorage.getItem("jwt_token")}`

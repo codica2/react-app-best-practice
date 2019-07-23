@@ -70,11 +70,13 @@ class JoinContainer extends Component {
               handleSubmit={handleSubmit((values, dispatch, props) =>
                 join(activeUser, values)
                   .then(({ data }) => {
+                    console.log(data);
                     localStorage.setItem("user_email", data.email);
                     localStorage.usertype = activeUser;
                     history.push("/confirm_email");
                   })
                   .catch(({ response: { data } }) => {
+                    console.log(data);
                     throw new SubmissionError({
                       email: data.errors[0]
                     });

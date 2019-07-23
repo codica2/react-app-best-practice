@@ -19,5 +19,13 @@ const projectTeam = (teams, projectId) => {
   return teams[key];
 };
 
-export const getCustomTeams = () => createSelector(customTeams, teams => teams);
-export const getProjectTeam = () => createSelector(projectTeam, team => team);
+export const getCustomTeams = () =>
+  createSelector(
+    customTeams,
+    teams => teams
+  );
+export const getProjectTeam = () =>
+  createSelector(
+    projectTeam,
+    team => team
+  );

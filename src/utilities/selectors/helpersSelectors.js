@@ -28,4 +28,7 @@ const prepareForSelect = (state, value = "value", label = "text") => {
 };
 
 export const getDataForSelect = () =>
-  createSelector(prepareForSelect, data => data);
+  createSelector(
+    prepareForSelect,
+    data => data
+  );

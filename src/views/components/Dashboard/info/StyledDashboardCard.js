@@ -11,9 +11,7 @@ export default styled.div`
   padding: 12px 30px 16px 20px;
   background: ${props =>
     props.backgroundImg
-      ? `linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${
-          props.backgroundImg
-        })`
+      ? `linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${props.backgroundImg})`
       : props.background || `white`};
   background-size: cover;
   text-transform: uppercase;
